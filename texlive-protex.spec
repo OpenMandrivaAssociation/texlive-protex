@@ -46,6 +46,7 @@ PDF, or HTML using TeX4ht).
 %{_texmfdistdir}/tex/latex/protex/ProTex.sty
 %doc %{_texmfdistdir}/doc/latex/protex/LitProg
 %doc %{_texmfdistdir}/doc/latex/protex/README
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +57,5 @@ PDF, or HTML using TeX4ht).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
