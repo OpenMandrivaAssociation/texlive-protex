@@ -6,7 +6,7 @@
 # catalog-version 1.5
 Name:		texlive-protex
 Version:	1.5
-Release:	9
+Release:	10
 Summary:	Literate programming package
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/web/protex
