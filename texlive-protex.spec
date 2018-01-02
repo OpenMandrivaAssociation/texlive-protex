@@ -1,12 +1,6 @@
-# revision 15878
-# category Package
-# catalog-ctan /web/protex
-# catalog-date 2008-09-16 21:39:08 +0200
-# catalog-license lppl
-# catalog-version 1.5
 Name:		texlive-protex
-Version:	1.5
-Release:	10
+Version:	20160704
+Release:	1
 Summary:	Literate programming package
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/web/protex
@@ -33,10 +27,8 @@ PDF, or HTML using TeX4ht).
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/protex/AlProTex.sty
-%{_texmfdistdir}/tex/latex/protex/ProTex.sty
-%doc %{_texmfdistdir}/doc/latex/protex/LitProg
-%doc %{_texmfdistdir}/doc/latex/protex/README
+%{_texmfdistdir}/tex/latex/protex
+%doc %{_texmfdistdir}/doc/latex/protex
 
 #-----------------------------------------------------------------------
 %prep
@@ -47,17 +39,3 @@ PDF, or HTML using TeX4ht).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.5-2
-+ Revision: 755138
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.5-1
-+ Revision: 719311
-- texlive-protex
-- texlive-protex
-- texlive-protex
-- texlive-protex
-
