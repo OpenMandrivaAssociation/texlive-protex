@@ -1,5 +1,5 @@
 Name:		texlive-protex
-Version:	20160704
+Version:	20170414
 Release:	1
 Summary:	Literate programming package
 Group:		Publishing
