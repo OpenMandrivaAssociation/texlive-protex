@@ -1,6 +1,6 @@
 Name:		texlive-protex
-Version:	20180303
-Release:	2
+Version:	20190228
+Release:	1
 Summary:	Literate programming package
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/web/protex
